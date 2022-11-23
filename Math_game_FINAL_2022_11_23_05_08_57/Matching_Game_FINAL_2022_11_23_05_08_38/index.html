@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>FMS PROJECT</title>
+  </head>
+  <body>  
+  <section class= "memory-game" id= "game">
+    <div class="memory-card" data-framework="racecar1" id="1">
+  <img class="front-face" src="assets/racecar1.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+    <div class="memory-card" data-framework="racecar1" id="2">
+  <img class="front-face" src="assets/racecar1.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+     <div class="memory-card" data-framework="racecar2" id="3">
+  <img class="front-face" src="assets/racecar2.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+     <div class="memory-card" data-framework="racecar2">
+  <img class="front-face" src="assets/racecar2.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+     <div class="memory-card" data-framework="racecar3">
+  <img class="front-face" src="assets/racecar3.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+     <div class="memory-card" data-framework="racecar3">
+  <img class="front-face" src="assets/racecar3.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+     <div class="memory-card" data-framework="racecar4">
+  <img class="front-face" src="assets/racecar4.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+     <div class="memory-card" data-framework="racecar4">
+  <img class="front-face" src="assets/racecar4.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+     <div class="memory-card" data-framework="racecar5">
+  <img class="front-face" src="assets/racecar5.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+    <div class="memory-card" data-framework="racecar5">
+  <img class="front-face" src="assets/racecar5.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+    <div class="memory-card" data-framework="racecar6">
+  <img class="front-face" src="assets/racecar6.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+    <div class="memory-card" data-framework="racecar6">
+  <img class="front-face" src="assets/racecar6.png" alt="React">
+  <img class="back-face" src="assets/front.png" alt="Memory Card">
+    </div>
+      </section>
+  <div id="timer" class="timer">60
+    </div>
+    
+  <div id="mybutton">
+      <button class="button-style" onclick = "window.open('https://editor.p5js.org/estabundis/full/qduuYjUjd','_blank')">Menu</button>
+  </div>
+    
+  <div class="overlay-text visible">
+    Racecar Matching!!
+    <span class="overlay-text-small">Click to Play</span>
+    </div>
+  
+  <div id="game-over-text" class="overlay-text" onclick="window.location.reload()">
+    GAME OVER.
+      <span class="overlay-text-small">Restart?</span>
+  </div>     
+    
+  <div id="victory-text" class="overlay-victory" onclick="window.location.reload()">
+    You Win!
+      <span class="overlay-text-small">Click Screen to Play Again</span>
+    <div id="mybutton2">
+      <button class="button-style2" onclick = "window.open('https://editor.p5js.org/estabundis/full/qduuYjUjd','_blank')">Menu</button>
+    </div>
+  </div>    
+    <script src="sketch.js"></script>
+  </body>
+</html>
+
+
+

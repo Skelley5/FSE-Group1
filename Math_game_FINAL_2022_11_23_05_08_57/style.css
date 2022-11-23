@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.feedback {
+  background-color : #5A5A5A;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 10px;
+  border-color: #878585;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
